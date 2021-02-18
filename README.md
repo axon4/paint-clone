@@ -1,7 +1,8 @@
-# Paint Clone
+# Paint-Clone
 
-* Transport yourself back to the 90s and 00s, and have fun with this Microsoft Paint clone.
-* Save your canvas locally and load it later when you are ready to finish it, or clear it altogether if you need to start again, and download it once complete.
+* transPort yourSelf back to the 90s and 00s and have fun with this MicroSoft-Paint--clone
+* save canvas locally (local-storage) and load it later when ready to finish, or clear it alTogether if you need to start aGain
+* downLoad finished canvas once complete
 
 ## Stack
 

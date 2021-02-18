@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
 	margin: 0;
-	background-color: rgb(177, 177, 177);
+	background-color: rgb(104, 41, 41);
 	font-family: Oswald, sans-serif;
 	overflow: hidden;
 }
@@ -21,9 +21,8 @@ body {
 	justify-content: center;
 }
 
-/* Font Awesome Icons */
-.fas,
-.far {
+/* Font-Awesome icons */
+.fas, .far {
 	font-size: 25px;
 	position: relative;
 	top: 5px;
@@ -36,8 +35,7 @@ body {
 	cursor: pointer;
 }
 
-.fas:hover,
-.far:hover {
+.fas:hover, .far:hover {
 	filter: brightness(90%);
 }
 
@@ -45,8 +43,7 @@ body {
 	cursor: default;
 }
 
-.fa-undo-alt:hover,
-.fa-trash-alt:hover {
+.fa-undo-alt:hover, .fa-trash-alt:hover {
 	color: rgb(223, 37, 37);
 }
 
@@ -58,10 +55,11 @@ body {
 	background-color: initial;
 	border-radius: initial;
 	text-align: initial;
-	cursor: none
+	cursor: none;
 }
 
-/* Tools */
+/* tools */
+
 .active-tool {
 	position: absolute;
 	top: 9px;
@@ -110,7 +108,8 @@ body {
 	user-select: none;
 }
 
-/* Custom Slider */
+/* custom slider */
+
 .slider {
 	-webkit-appearance: none;
 	position: relative;
@@ -159,14 +158,14 @@ canvas#canvas {
 	position: absolute;
 	top: 50px;
 	/* background-color: rgb(177, 177, 177); */
-	cursor: crosshair
+	cursor: crosshair;
 }
 
 .mobile-message {
 	display: none;
 }
 
-/* Media Query: Mobile Devices */
+/* media-query: mobile-devices */
 @media screen and (max-width: 800px) {
 	.mobile-message {
 		position: absolute;
